@@ -9,4 +9,13 @@
         </classes>
     </test>
 
+    <!--
+    <test name="device2">
+        <parameter name="UDID_" value=""/>
+        <classes>
+            <class name="testsuite.AppiumAndroidSuite" />
+        </classes>
+    </test>
+    -->
+
 </suite>
