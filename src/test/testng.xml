@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Bitbar test" parallel="tests" thread-count="1" >
+
+    <test name="device1">
+        <parameter name="UDID_" value="ZY3222G8D2"/>
+        <classes>
+            <class name="testsuite.AppiumAndroidSuite" />
+        </classes>
+    </test>
+
+</suite>
